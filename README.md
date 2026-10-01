@@ -2,13 +2,17 @@
 
 <img src="https://raw.githubusercontent.com/misolori/vscode-symbols/main/symbols.png" width="140" />
 
-# Symbols
+# Symbols (Grayscale)
 
 A file icon for VS Code
 
 ![Preview of extension](https://github.com/misolori/vscode-symbols/raw/main/preview.png)
 
 </div>
+
+## Grayscale fork
+
+This fork preserves every Symbols icon shape while converting its SVG palette to grayscale during the build and packaging steps. Run `npm run package` to generate an installable `.vsix` file, or run `npm run build` to regenerate the grayscale previews.
 
 ## Contributing
 
