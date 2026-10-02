@@ -104,7 +104,7 @@
 		"integrity": "node --experimental-json-modules scripts/integrity.mjs",
 		"grayscale-icons": "node scripts/grayscale-icons.mjs",
 		"package": "vsce package --no-dependencies",
-		"vscode:prepublish": "npm run grayscale-icons && npm run check-format && npm run lint",
+		"vscode:prepublish": "npm run grayscale-icons && npm run lint",
 		"precommit": "npm run grayscale-icons && npm run check-format:fix && npm run lint:fix && npm run integrity && npm run generate-previews",
 		"prepare": "husky",
 		"build": "npm run grayscale-icons && npm run generate-previews",
