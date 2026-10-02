@@ -10,9 +10,9 @@ A file icon for VS Code
 
 </div>
 
-## Grayscale fork
+## Grayscale icon color
 
-This fork preserves every Symbols icon shape while converting its SVG palette to grayscale during the build and packaging steps. Run `npm run package` to generate an installable `.vsix` file, or run `npm run build` to regenerate the grayscale previews.
+This fork preserves every Symbols icon shape while setting every SVG color to the lighter `#A6A3B8` gray, matching the Explorer text color in the reference theme. Run `npm run package` to generate an installable `.vsix` file, or run `npm run build` to regenerate the previews.
 
 ## Contributing
 
